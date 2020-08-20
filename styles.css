@@ -1,9 +1,9 @@
-* { 
+/* { 
     MARGIN: 0; 
     padding: 0; 
     Font-family: arial, helvetica, sans - serif;
     box-sizing: border-box; 
-}
+} */
 
 
 .tittle-1, h2 {
@@ -58,4 +58,14 @@ p::first-letter {
 }
 h1 p::first-letter{
     font-size: 100px;
+}
+/* div{
+    border: hotpink;
+    border-width: 1ch;
+    border-style: solid;
+} */
+div{
+    border: solid 5px pink;
+    margin: 20px;
+    padding: 20px;
 }
