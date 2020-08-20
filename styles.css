@@ -1,0 +1,61 @@
+* { 
+    MARGIN: 0; 
+    padding: 0; 
+    Font-family: arial, helvetica, sans - serif;
+    box-sizing: border-box; 
+}
+
+
+.tittle-1, h2 {
+    color: blue;
+    background: yellow !important; 
+    margin: 20px 
+}
+.tittle-2 {
+    color: burlywood;
+}
+.tittle-3 {
+    color: red;
+}
+/*
+#title {
+    background: red;
+} */
+
+.italic {
+    font-style: italic;
+}
+a {
+    color: violet;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    background: black;
+}
+p {
+    color: seagreen;
+    font-size: 12px;
+}
+p:first-child{
+    color: sienna;
+}
+p:last-child {
+    color: slategrey;
+}
+p: :nth-child(2) {
+    font-size: 20px
+}
+p:nth-child(even) {
+    background: wheat;
+}
+p:nth-child(odd) {
+    background: greenyellow;
+}
+p::first-letter {
+    font-size: 50px;
+}
+h1 p::first-letter{
+    font-size: 100px;
+}
