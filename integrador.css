@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "open sanz" ;
+    font-size: 16px;
+}
+body . html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
+h3{
+    text-align: center;
+    margin-block-end: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+
+    
+}
+
+div {
+    width: 100%;
+    height: 40px;
+    background: rosybrown;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    
+    
+}
+a {
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background: black;
+    width: 100%;
+    height: 100%;
+
+}
+
+a:active, a:hover {
+    background: cadetblue;
+}
+
+@media screen and (max-width:1000px) {
+  
+    ul {
+       display: block;
+       
+    }
+    li {
+        width: 100%;
+        height: 40px;
+        flex-direction: column;
+    }
+      
+}
+.container {
+    width: 100%;
+    height: 40px;
+    margin: o auto;
+    font-family: 'Lexend Peta', sans-serif;
+    
+    
+    
+
+
+.footer {
+    padding: 4rem o;
+    text-align: center ;
+    margin-top: 10rem ;
+}
+
+section{
+    padding: 10rem 0 ;
+
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 3.5rem ;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    position: relative;
+
+
+}

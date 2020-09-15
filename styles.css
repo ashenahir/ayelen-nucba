@@ -45,7 +45,8 @@ p:last-child {
     color: slategrey;
 }
 p: :nth-child(2) {
-    font-size: 20px
+    font-size: 20px;
+    text-align: center
 }
 p:nth-child(even) {
     background: wheat;
@@ -73,5 +74,10 @@ div{
     width: 100%;
     height: 100px;
     background: rosybrown;
-    border: 2px solid pink
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+.circulo {
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0,0,0, 0);
 }

@@ -1,0 +1,107 @@
+/*p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}*/
+
+
+/*p {
+    animation: 3s infinite alternate slidein;
+}/*
+
+/*@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}*/
+
+/*div {
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    animation-duration: 2s;
+    animation-name: square;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes square {
+    from {
+        background-color: orange;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: palegreen;
+        left: 200px;
+        top: 0px;
+    }
+    75% {
+        background-color: paleturquoise;
+        left: 200px;
+        top: 200px;
+    }
+    to {
+        background-color: papayawhip;
+        margin-left: 0px;
+        top: 0px;
+
+    }
+}*/
+/*.animation {
+    transform: scale(0.5);
+    animation-name: heart;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes heart {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: scale(0.6);
+
+    }
+}*/
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-duration: 3s;
+    animation-name: square;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+@keyframes square {
+    from {
+       transform: translate(300px);
+    }
+    50% {
+        background-color: yellow;
+    }
+    to {
+        transform: translate(opx);
+
+    }

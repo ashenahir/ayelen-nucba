@@ -1,0 +1,64 @@
+body . html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    height: 40px;
+    background: rosybrown;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+a {
+    color: bisque;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background: blanchedalmond;
+    width: 100%;
+    height: 100%;
+
+}
+
+a:active, a:hover {
+    background: cadetblue;
+}
+
+@media screen and (max-width:1000px) {
+    ul {
+        display: block;
+    }
+    li {
+        width: 100%;
+        height: 40px;
+        background: darkgray;
+    }
+}
