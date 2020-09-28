@@ -4,18 +4,33 @@
     box-sizing: border-box;
 
 }
-body {
-    font-family: "open sanz" ;
-    font-size: 16px;
-}
-body . html {
+html, body {
     margin: 0;
     padding: 0;
+    min-height: 200vh;
+    
+    
+    
 }
+.body {
+    width: 100%;
+    height: 100%;
+    font-family:'Lexend Peta', sans-serif ;
+    font-size: 16px;
+    letter-spacing: 0.03rem;
+    line-height: 1.6;
+    color: black;
+}
+
+
 
 h1 {
     text-align: center;
     font-family: 'Lexend Peta', sans-serif;
+    font-size: 5rem;
+    margin-top: 50px;
+    font-weight: 100;
+
 }
 h3{
     text-align: center;
@@ -25,14 +40,24 @@ h3{
 .navbar {
     width: 100%;
     margin: 0;
-
-    
+       
 }
+.navbar-container {
+    text-align: center;
+    justify-content: center;
+    margin-left: 10rem;
+    width: 100%;
+}
+
 
 div {
     width: 100%;
-    height: 40px;
-    background: rosybrown;
+    height: 100%;
+    background:  blanchedalmond;
+    text-align: center;
+    justify-content: center;
+    
+    
 }
 
 ul {
@@ -49,7 +74,7 @@ li{
     
 }
 a {
-    color: whitesmoke;
+    color: black;
     text-align: center;
     width: 100%;
     height: 40px;
@@ -58,52 +83,144 @@ a {
     align-items: none;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif ;
 }
 
 #home {
-    background: black;
+    background: blanchedalmond;
     width: 100%;
     height: 100%;
+
 
 }
 
 a:active, a:hover {
-    background: cadetblue;
+    background: rgb(244, 179, 123);
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
   
     ul {
        display: block;
+       color: black;
+       
        
     }
     li {
         width: 100%;
         height: 40px;
         flex-direction: column;
+        color: black;
     }
-      
+   
+    .navbar-container {
+        background-color: rosybrown;
+    }
+    h1  {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .footer-main .footer-column {
+        padding: 0 10px;
+        text-align: center;
+        width: 100%;
+
+    }
+    .footer-main .footer-column h2{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .footer-main .footer-column p {
+        font-size:10px;
+    
+    }
+    .footer-copy-redes .main-copy-redes .footer-copy {
+        width: 100%;
+        height: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        font-size: 8px;
+
+    }
+    .footer-copy-redes .main-copy-redes .footer-redes {
+    width: 80%;
+    margin: auto;
+
+    }
+    .footer .footer-main .footer-column span {
+        display:block ;
+    }
 }
-.container {
+
+      
+
+.container-all {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-cards {
     width: 100%;
     height: 40px;
     margin: o auto;
     font-family: 'Lexend Peta', sans-serif;
-    
-    
-    
-
-
-.footer {
-    padding: 4rem o;
-    text-align: center ;
-    margin-top: 10rem ;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-family: 'Lexend Peta', sans-serif ;
+    margin-top: 5rem;
 }
 
-section{
-    padding: 10rem 0 ;
+.container-cards h2 {
+    font-size: 16px;
+}
+
+
+.container-cards {
+   width: 100%;
+   max-width: 1000px;
+    height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   font-family: 'Lexend Peta', sans-serif;
+   text-align: center;
+   margin-top: 2rem;
 
 }
+
+.container-cards .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    border-top: 100px;
+    font-family: 'Lexend Peta', sans-serif ;
+    
+
+}
+
+.container-cards .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2); 
+
+}
+.container-cards .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
 .heading {
     text-transform: uppercase;
     font-size: 3.5rem ;
@@ -113,5 +230,146 @@ section{
     text-align: center;
     position: relative;
 
+
+}
+.tittle {
+    text-align: center;
+}
+.container-cards .card h2 {
+    font-weight: 300;   
+    margin-top: 10px;
+}
+
+.container-cards .card p {
+    padding: 0 1rem;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.container-cards .card a {
+    margin-top: 50px;
+   text-align: center;
+   font-weight: 500;
+   text-decoration: none;
+   width: 100%; 
+   height: 45px;
+   background: rgb(104, 170, 104);
+   color: white;
+   border-radius: 25px;
+   border: 1px solid bisque;
+   font-family: ;
+   font-size: 16px;
+   letter-spacing: 0.6px;
+   font-weight: 500;
+   cursor: pointer;
+
+}
+.footer {
+    width: 100%;
+    font-family: 'Lexend Peta', sans-serif;
+}
+    
+.footer-container {
+    background-color: black;
+    width: 100%;
+    color: black;
+
+}
+.footer-main {
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-main .footer-column {
+    width: calc(100%/3) ;
+    text-align: justify;
+}
+
+.footer-main .footer-column:nth-child(2) {
+    padding: 0 20px;
+}
+.footer-main .footer-column h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer-main .footer-column input [type= "email"] {
+   border: none;
+   width: 100%;
+   border: 1px solid black;
+   font-size: 12px;
+   padding: 10px;
+   font-family: 'Lexend Peta', sans-serif ;
+}
+.footer .footer-container .footer-main .footer-column a button {
+    border: none;
+    color: black;
+    background-color: black ;
+    padding: 10px 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Lexend Peta', sans-serif 
+}
+
+.footer-main .footer-column span p {
+    display: inline-block;
+    margin-left:  5px;
+    margin-bottom: 15px;
+    font-family: 'Lexend Peta', sans-serif  ;
+    font-size: 12px;
+}
+.footer-main .footer-column p {
+    font-size: 12px;
+}
+.footer-copy-redes {
+    width: 100%;
+    background-color: black;
+    border-top: 3px solid white;
+    font-size: 10px;
+
+
+}
+.main-copy-redes {
+    width: 98%;
+    max-width: 1000px ;
+    padding: 15px 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.main-copy-redes .footer-copy {
+    width: 70%;
+    color:blanchedalmond;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+
+}
+.main-copy-redes .footer-redes {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+.main-copy-redes .footer-redes a {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 500%;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
 
 }
