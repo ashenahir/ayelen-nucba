@@ -107,7 +107,7 @@ a {
     color: bisque;
 }
 
-@media screen and ( min-width: 1000px) {
+@media screen and ( max-width: 800px) {
     .login-img {
         visibility: visible;
         border-radius: 0 20px 20px 0;
@@ -133,7 +133,7 @@ a {
         margin: 10px 0;
     }
     .content{
-        width: 50%;
+        width: 75%;
         background: bisque;
         height: 100%;
         flex-direction: row;
@@ -145,5 +145,9 @@ a {
     }
     .login__inputs p:last-child button {
         width: 100%;
+    }
+    .login__inputs h3{
+        text-align: center;
+        justify-content: center;
     }
 }

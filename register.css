@@ -64,7 +64,7 @@ html, body{
     color: red;
 }
 .container {
-        width: 50%;
+        width: 70%;
         background: bisque;
         height: 60%;
         flex-direction: row;
@@ -72,15 +72,18 @@ html, body{
         box-shadow: 0px 0px 26px -5px grey;
         
 }
-@media screen and ( min-width: 1000px){
+@media screen and ( max-width: 1000px){
     .container{
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         margin: auto;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: bisque;
+        flex-direction: row;
+        border-radius: 20px;
+        box-shadow: 0px 0px 26px -5px grey;
     }  
     .login-img {
             visibility: visible;
@@ -97,17 +100,12 @@ html, body{
         width: 70%;
         margin: 10px 0;
     }
-    .container{
-
-        width: 50%;
-        background: bisque;
-        height: 100%;
-        flex-direction: row;
-        border-radius: 20px;
-        box-shadow: 0px 0px 26px -5px grey;
-        
-    }
+    
     html, body {
         background: bisque;
+    }
+    .container_input {
+        width: 75%;
+        height: 100%;
     }
 }
